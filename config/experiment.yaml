@@ -1,0 +1,38 @@
+# config/experiment.yaml
+# Master experiment config — controls the full run matrix.
+
+experiment:
+  name: "llm-instruction-dilution"
+  version: "v1.0"
+  seed: 42
+
+# Dataset
+dataset:
+  json_task:    "data/processed/json_clean.json"
+  struct_task:  "data/processed/structured_clean.json"
+  samples_per_task: 300           # 300 × 2 tasks = 600 total
+
+# Prompt strategies
+prompt_strategies:
+  - monolithic
+  - modular
+  - system_separated
+
+# Noise / instruction-length levels (approximate tokens)
+noise_levels:
+  - label: "short"
+    tokens: 300
+    file: "skills/noise_blocks/noise_300.txt"
+  - label: "medium"
+    tokens: 800
+    file: "skills/noise_blocks/noise_800.txt"
+  - label: "long"
+    tokens: 1500
+    file: "skills/noise_blocks/noise_1500.txt"
+
+# Output
+output:
+  raw_dir:        "results/raw_outputs"
+  processed_dir:  "results/processed"
+  logs_dir:       "results/logs"
+  metadata_dir:   "results/metadata"

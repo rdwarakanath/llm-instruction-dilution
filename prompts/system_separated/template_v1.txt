@@ -1,0 +1,10 @@
+# System-Separated Prompt Template v1
+# system= contains skill + format; user= contains only the input.
+# Note: noise block is NOT injected here — tested at short level only.
+
+[SYSTEM]
+{{SKILL_BLOCK}}
+{{OUTPUT_FORMAT}}
+
+[USER]
+{{USER_INPUT}}

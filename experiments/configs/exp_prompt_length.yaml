@@ -1,0 +1,17 @@
+# experiments/configs/exp_prompt_length.yaml
+# Sweeps prompt length (noise level) across all models and strategies.
+
+name: "exp_prompt_length"
+description: >
+  Measures how increasing instruction/noise length affects
+  JSON extraction and structured generation accuracy.
+
+grid:
+  models:           [model_3b, model_8b]
+  temperatures:     [0.0, 0.3]          # low temps for determinism
+  prompt_strategies: [monolithic, modular, system_separated]
+  noise_levels:     [short, medium, long]
+  tasks:            [json_task, struct_task]
+
+runs_per_cell: 3                        # repeat each cell 3× for stability score
+total_runs: 216                         # 2×2×3×3×2×3 = 216

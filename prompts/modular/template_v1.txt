@@ -1,0 +1,14 @@
+# Modular Prompt Template v1
+# Skill injected separately, noise isolated.
+
+## SKILL
+{{SKILL_BLOCK}}
+
+## OUTPUT FORMAT
+{{OUTPUT_FORMAT}}
+
+## INPUT
+{{USER_INPUT}}
+
+## NOISE CONTEXT
+{{NOISE_BLOCK}}

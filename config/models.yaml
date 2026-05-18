@@ -1,0 +1,24 @@
+# config/models.yaml
+# All model settings in one place — never hardcode in code files.
+
+models:
+  - id: model_3b
+    name: "llama3.2:3b"
+    label: "LLaMA 3.2 3B"
+    param_size: 3
+    context_window: 4096        # max tokens this model accepts
+
+  - id: model_8b
+    name: "llama3.1:8b"
+    label: "LLaMA 3.1 8B"
+    param_size: 8
+    context_window: 8192
+
+# Temperature values to sweep
+temperatures: [0.0, 0.3, 0.7, 1.0]
+
+# Request settings
+request:
+  timeout_seconds: 120
+  max_retries: 3
+  retry_delay_seconds: 5

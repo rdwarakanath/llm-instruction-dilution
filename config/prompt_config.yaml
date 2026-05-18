@@ -1,0 +1,20 @@
+# config/prompt_config.yaml
+# Prompt template paths and rendering settings.
+
+templates:
+  monolithic:       "prompts/monolithic/template_v1.txt"
+  modular:          "prompts/modular/template_v1.txt"
+  system_separated: "prompts/system_separated/template_v1.txt"
+
+# Placeholders used inside templates
+placeholders:
+  skill_block:   "{{SKILL_BLOCK}}"
+  noise_block:   "{{NOISE_BLOCK}}"
+  user_input:    "{{USER_INPUT}}"
+  output_format: "{{OUTPUT_FORMAT}}"
+
+# Token budget (soft limits — tokenizer_utils.py will enforce)
+token_limits:
+  system_prompt_max: 1800
+  user_prompt_max:   512
+  total_max:         2048

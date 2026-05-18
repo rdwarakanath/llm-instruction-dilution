@@ -1,0 +1,7 @@
+# json_skill.txt
+# Skill block injected into prompts for the JSON extraction task.
+# Populated in Stage 4.
+
+You are a precise JSON extractor. Given a natural language input,
+extract the requested fields and return ONLY valid JSON. No explanation.
+No markdown. No extra text.

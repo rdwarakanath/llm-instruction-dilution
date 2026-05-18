@@ -1,0 +1,17 @@
+# experiments/configs/baseline.yaml
+# Zero-shot baseline — no skill injection, plain instruction only.
+
+name: "baseline"
+description: >
+  Zero-shot run with no modular skill injection or noise.
+  This is the comparison anchor for all other experiments.
+
+grid:
+  models:           [model_3b, model_8b]
+  temperatures:     [0.0, 0.3]
+  prompt_strategies: [monolithic]       # simplest possible prompt
+  noise_levels:     [short]             # minimum context
+  tasks:            [json_task, struct_task]
+
+runs_per_cell: 3
+total_runs: 24

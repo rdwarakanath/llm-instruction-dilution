@@ -1,0 +1,3476 @@
+[
+  {
+    "id": "json_001",
+    "input": "Ravi Kumar is a 21-year-old engineering student from Chennai. He studies at Anna University and his email is ravi.kumar21@gmail.com.",
+    "expected_output": {
+      "name": "Ravi Kumar",
+      "age": 21,
+      "profession": "engineering student",
+      "city": "Chennai",
+      "college": "Anna University",
+      "email": "ravi.kumar21@gmail.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "student_profile"
+    }
+  },
+  {
+    "id": "json_002",
+    "input": "Priya Nair, aged 28, works as a software engineer at Infosys in Bangalore. You can reach her at priya.nair@infosys.com.",
+    "expected_output": {
+      "name": "Priya Nair",
+      "age": 28,
+      "profession": "software engineer",
+      "city": "Bangalore",
+      "company": "Infosys",
+      "email": "priya.nair@infosys.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_003",
+    "input": "The applicant, Suresh Mehta, is 35 years old and currently employed as a data analyst at Wipro. He is based out of Hyderabad.",
+    "expected_output": {
+      "name": "Suresh Mehta",
+      "age": 35,
+      "profession": "data analyst",
+      "city": "Hyderabad",
+      "company": "Wipro"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company"
+      ],
+      "difficulty": "easy",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_004",
+    "input": "Meet Ananya Singh, a 24-year-old MBA student pursuing her degree from IIM Ahmedabad. She hails from Jaipur and can be contacted at ananya.singh24@iima.ac.in.",
+    "expected_output": {
+      "name": "Ananya Singh",
+      "age": 24,
+      "profession": "MBA student",
+      "city": "Jaipur",
+      "college": "IIM Ahmedabad",
+      "email": "ananya.singh24@iima.ac.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "student_profile"
+    }
+  },
+  {
+    "id": "json_005",
+    "input": "Karthik Rajan (age 30) is a product manager at TCS, working from their Mumbai office. His contact email is karthik.rajan@tcs.com.",
+    "expected_output": {
+      "name": "Karthik Rajan",
+      "age": 30,
+      "profession": "product manager",
+      "city": "Mumbai",
+      "company": "TCS",
+      "email": "karthik.rajan@tcs.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_006",
+    "input": "Deepika Patel is 19 and in her first year of B.Sc. Computer Science at Pune University.",
+    "expected_output": {
+      "name": "Deepika Patel",
+      "age": 19,
+      "profession": "B.Sc. Computer Science student",
+      "college": "Pune University"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "college"
+      ],
+      "difficulty": "easy",
+      "subtype": "student_profile"
+    }
+  },
+  {
+    "id": "json_007",
+    "input": "A 45-year-old doctor named Ramesh Iyer practices at Apollo Hospitals in Chennai. His professional email is r.iyer@apollohospitals.com.",
+    "expected_output": {
+      "name": "Ramesh Iyer",
+      "age": 45,
+      "profession": "doctor",
+      "city": "Chennai",
+      "company": "Apollo Hospitals",
+      "email": "r.iyer@apollohospitals.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_008",
+    "input": "Meena Krishnan completed her B.Tech from NIT Trichy and is now a 26-year-old backend developer at Zoho in Chennai.",
+    "expected_output": {
+      "name": "Meena Krishnan",
+      "age": 26,
+      "profession": "backend developer",
+      "city": "Chennai",
+      "company": "Zoho",
+      "college": "NIT Trichy"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "college"
+      ],
+      "difficulty": "medium",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_009",
+    "input": "The resume belongs to Arjun Sharma, currently 32, employed as a machine learning engineer at Amazon, Hyderabad. Contact: arjun.s@amazon.in.",
+    "expected_output": {
+      "name": "Arjun Sharma",
+      "age": 32,
+      "profession": "machine learning engineer",
+      "city": "Hyderabad",
+      "company": "Amazon",
+      "email": "arjun.s@amazon.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_010",
+    "input": "Neha Gupta, 23, is currently doing her Masters in Data Science from Delhi University. She is originally from Lucknow.",
+    "expected_output": {
+      "name": "Neha Gupta",
+      "age": 23,
+      "profession": "Masters in Data Science student",
+      "city": "Lucknow",
+      "college": "Delhi University"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college"
+      ],
+      "difficulty": "easy",
+      "subtype": "student_profile"
+    }
+  },
+  {
+    "id": "json_011",
+    "input": "My name is Vikram Nambiar. I am 40 years old, a civil engineer by profession, currently working at L&T in Pune. Reach me at vikram.nambiar@lnt.com.",
+    "expected_output": {
+      "name": "Vikram Nambiar",
+      "age": 40,
+      "profession": "civil engineer",
+      "city": "Pune",
+      "company": "L&T",
+      "email": "vikram.nambiar@lnt.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "first_person"
+    }
+  },
+  {
+    "id": "json_012",
+    "input": "This profile is for Lakshmi Venkataraman, aged 27, a UX designer based in Coimbatore. She currently freelances and her email is lakshmi.design@gmail.com.",
+    "expected_output": {
+      "name": "Lakshmi Venkataraman",
+      "age": 27,
+      "profession": "UX designer",
+      "city": "Coimbatore",
+      "company": "freelancer",
+      "email": "lakshmi.design@gmail.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_013",
+    "input": "Sanjay Bose works as a financial analyst at HDFC Bank and is 33 years old. He is based in Kolkata.",
+    "expected_output": {
+      "name": "Sanjay Bose",
+      "age": 33,
+      "profession": "financial analyst",
+      "city": "Kolkata",
+      "company": "HDFC Bank"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company"
+      ],
+      "difficulty": "easy",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_014",
+    "input": "Harini R., 22, is enrolled in the third year of her BCA program at Bharathiar University, Coimbatore. Her email id is harini.r22@bcu.ac.in.",
+    "expected_output": {
+      "name": "Harini R.",
+      "age": 22,
+      "profession": "BCA student",
+      "city": "Coimbatore",
+      "college": "Bharathiar University",
+      "email": "harini.r22@bcu.ac.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "student_profile"
+    }
+  },
+  {
+    "id": "json_015",
+    "input": "The person in question is Aditya Kapoor, a 29-year-old DevOps engineer working remotely for Razorpay. He lives in Bhopal. Email: aditya.k@razorpay.com.",
+    "expected_output": {
+      "name": "Aditya Kapoor",
+      "age": 29,
+      "profession": "DevOps engineer",
+      "city": "Bhopal",
+      "company": "Razorpay",
+      "email": "aditya.k@razorpay.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_016",
+    "input": "Radhika Subramaniam, 31, is a content strategist at Freshworks, Chennai. She previously studied journalism at Madras University.",
+    "expected_output": {
+      "name": "Radhika Subramaniam",
+      "age": 31,
+      "profession": "content strategist",
+      "city": "Chennai",
+      "company": "Freshworks",
+      "college": "Madras University"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "college"
+      ],
+      "difficulty": "medium",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_017",
+    "input": "Our newest intern is Rahul Das, aged 20, a second-year student at VIT Vellore studying Electronics. He can be reached at rahul.das20@vit.ac.in.",
+    "expected_output": {
+      "name": "Rahul Das",
+      "age": 20,
+      "profession": "Electronics student",
+      "city": "Vellore",
+      "college": "VIT Vellore",
+      "email": "rahul.das20@vit.ac.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "student_profile"
+    }
+  },
+  {
+    "id": "json_018",
+    "input": "Pooja Reddy is 38 and has been a senior HR manager at Cognizant for the past six years. She is stationed in Hyderabad and her email is pooja.reddy@cognizant.com.",
+    "expected_output": {
+      "name": "Pooja Reddy",
+      "age": 38,
+      "profession": "senior HR manager",
+      "city": "Hyderabad",
+      "company": "Cognizant",
+      "email": "pooja.reddy@cognizant.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_019",
+    "input": "I am Naveen Pillai, 26, a cybersecurity analyst from Thiruvananthapuram currently working at UST Global.",
+    "expected_output": {
+      "name": "Naveen Pillai",
+      "age": 26,
+      "profession": "cybersecurity analyst",
+      "city": "Thiruvananthapuram",
+      "company": "UST Global"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company"
+      ],
+      "difficulty": "easy",
+      "subtype": "first_person"
+    }
+  },
+  {
+    "id": "json_020",
+    "input": "Smitha Nair (34) is a project manager working at HCL Technologies, Noida. She can be contacted via smitha.nair@hcl.com.",
+    "expected_output": {
+      "name": "Smitha Nair",
+      "age": 34,
+      "profession": "project manager",
+      "city": "Noida",
+      "company": "HCL Technologies",
+      "email": "smitha.nair@hcl.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_021",
+    "input": "Tanvir Ahmed is a 25-year-old research assistant at IIT Madras. He is pursuing his M.Tech in Artificial Intelligence and lives on campus in Chennai.",
+    "expected_output": {
+      "name": "Tanvir Ahmed",
+      "age": 25,
+      "profession": "research assistant",
+      "city": "Chennai",
+      "college": "IIT Madras"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college"
+      ],
+      "difficulty": "medium",
+      "subtype": "student_profile"
+    }
+  },
+  {
+    "id": "json_022",
+    "input": "The user profile shows: Name - Divya Menon, Age - 29, Job - graphic designer, Employer - Canva India, Location - Bengaluru, Email - divya.menon@canva.com.",
+    "expected_output": {
+      "name": "Divya Menon",
+      "age": 29,
+      "profession": "graphic designer",
+      "city": "Bengaluru",
+      "company": "Canva India",
+      "email": "divya.menon@canva.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "structured_sentence"
+    }
+  },
+  {
+    "id": "json_023",
+    "input": "A 43-year-old operations head named Mohan Krishnamurthy oversees logistics at Flipkart's Bangalore warehouse. His email is mohan.k@flipkart.com.",
+    "expected_output": {
+      "name": "Mohan Krishnamurthy",
+      "age": 43,
+      "profession": "operations head",
+      "city": "Bangalore",
+      "company": "Flipkart",
+      "email": "mohan.k@flipkart.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_024",
+    "input": "Sundar Pichai is 51 years old, serves as the CEO of Google, and is based in San Francisco.",
+    "expected_output": {
+      "name": "Sundar Pichai",
+      "age": 51,
+      "profession": "CEO",
+      "city": "San Francisco",
+      "company": "Google"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company"
+      ],
+      "difficulty": "easy",
+      "subtype": "public_figure_style"
+    }
+  },
+  {
+    "id": "json_025",
+    "input": "My colleague Bhavana Shetty, who is 27, recently joined as a cloud architect at Microsoft Hyderabad. She graduated from BITS Pilani.",
+    "expected_output": {
+      "name": "Bhavana Shetty",
+      "age": 27,
+      "profession": "cloud architect",
+      "city": "Hyderabad",
+      "company": "Microsoft",
+      "college": "BITS Pilani"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "college"
+      ],
+      "difficulty": "medium",
+      "subtype": "third_person_colleague"
+    }
+  },
+  {
+    "id": "json_026",
+    "input": "Gopal Krishnan — 50 years old, retired IAS officer — currently lives in Madurai and consults for state government projects.",
+    "expected_output": {
+      "name": "Gopal Krishnan",
+      "age": 50,
+      "profession": "retired IAS officer / consultant",
+      "city": "Madurai"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city"
+      ],
+      "difficulty": "hard",
+      "subtype": "informal_bio"
+    }
+  },
+  {
+    "id": "json_027",
+    "input": "Nalini Rajan is 36 years old. She teaches Mathematics at Sri Venkateswara College, Delhi and her email is nalini.rajan@svcollegedelhi.edu.in.",
+    "expected_output": {
+      "name": "Nalini Rajan",
+      "age": 36,
+      "profession": "Mathematics teacher",
+      "city": "Delhi",
+      "college": "Sri Venkateswara College",
+      "email": "nalini.rajan@svcollegedelhi.edu.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_028",
+    "input": "Abhishek Joshi, aged 22, is in his final year of B.E. Mechanical at Government Engineering College, Thrissur. Contact: abhishek.j22@gect.ac.in.",
+    "expected_output": {
+      "name": "Abhishek Joshi",
+      "age": 22,
+      "profession": "B.E. Mechanical Engineering student",
+      "city": "Thrissur",
+      "college": "Government Engineering College",
+      "email": "abhishek.j22@gect.ac.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "student_profile"
+    }
+  },
+  {
+    "id": "json_029",
+    "input": "The candidate has submitted her application. Her name is Roshni Varma, she is 25 years old, currently working as a data scientist at Swiggy, Bangalore.",
+    "expected_output": {
+      "name": "Roshni Varma",
+      "age": 25,
+      "profession": "data scientist",
+      "city": "Bangalore",
+      "company": "Swiggy"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company"
+      ],
+      "difficulty": "easy",
+      "subtype": "application_context"
+    }
+  },
+  {
+    "id": "json_030",
+    "input": "Mithun Chakraborty (not the actor!) is a 33-year-old QA engineer at Mindtree, Kolkata. Email: mithun.c@mindtree.com.",
+    "expected_output": {
+      "name": "Mithun Chakraborty",
+      "age": 33,
+      "profession": "QA engineer",
+      "city": "Kolkata",
+      "company": "Mindtree",
+      "email": "mithun.c@mindtree.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "parenthetical_noise"
+    }
+  },
+  {
+    "id": "json_031",
+    "input": "Kavitha Anand works in Mysore as a school principal. She is 48 years old and has been in education for over two decades.",
+    "expected_output": {
+      "name": "Kavitha Anand",
+      "age": 48,
+      "profession": "school principal",
+      "city": "Mysore"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city"
+      ],
+      "difficulty": "medium",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_032",
+    "input": "Here are the details I have: Siddharth Rao, 30 years old, works as a blockchain developer at Polygon, located in Mumbai. His email address is siddharth.rao@polygon.technology.",
+    "expected_output": {
+      "name": "Siddharth Rao",
+      "age": 30,
+      "profession": "blockchain developer",
+      "city": "Mumbai",
+      "company": "Polygon",
+      "email": "siddharth.rao@polygon.technology"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "structured_sentence"
+    }
+  },
+  {
+    "id": "json_033",
+    "input": "Gayathri Subramanian is 21, from Trichy, and just started her first semester at PSG College of Technology studying Information Technology.",
+    "expected_output": {
+      "name": "Gayathri Subramanian",
+      "age": 21,
+      "profession": "Information Technology student",
+      "city": "Trichy",
+      "college": "PSG College of Technology"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college"
+      ],
+      "difficulty": "medium",
+      "subtype": "student_profile"
+    }
+  },
+  {
+    "id": "json_034",
+    "input": "Our guest speaker today is Dr. Padmanabhan Venkat, 55, a neuroscientist and professor at AIIMS New Delhi. He can be reached at p.venkat@aiims.edu.",
+    "expected_output": {
+      "name": "Dr. Padmanabhan Venkat",
+      "age": 55,
+      "profession": "neuroscientist and professor",
+      "city": "New Delhi",
+      "college": "AIIMS",
+      "email": "p.venkat@aiims.edu"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "academic_profile"
+    }
+  },
+  {
+    "id": "json_035",
+    "input": "Arun Thomas, who just turned 37, is now the head of engineering at Ola Electric in Bangalore after spending eight years at Bosch.",
+    "expected_output": {
+      "name": "Arun Thomas",
+      "age": 37,
+      "profession": "head of engineering",
+      "city": "Bangalore",
+      "company": "Ola Electric"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company"
+      ],
+      "difficulty": "hard",
+      "subtype": "contextual_noise"
+    }
+  },
+  {
+    "id": "json_036",
+    "input": "Swetha Balakrishnan, 26. Role: frontend developer. Location: Chennai. Employer: Zoho Corporation. Email: swetha.b@zoho.com.",
+    "expected_output": {
+      "name": "Swetha Balakrishnan",
+      "age": 26,
+      "profession": "frontend developer",
+      "city": "Chennai",
+      "company": "Zoho Corporation",
+      "email": "swetha.b@zoho.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "bullet_style_sentence"
+    }
+  },
+  {
+    "id": "json_037",
+    "input": "Vishal Nair is an architect by training but now aged 34 he runs his own construction consultancy in Kochi. His email is vishal@vnconsult.in.",
+    "expected_output": {
+      "name": "Vishal Nair",
+      "age": 34,
+      "profession": "construction consultant",
+      "city": "Kochi",
+      "email": "vishal@vnconsult.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "email"
+      ],
+      "difficulty": "hard",
+      "subtype": "implicit_profession"
+    }
+  },
+  {
+    "id": "json_038",
+    "input": "According to the enrollment form, the student's name is Ishaan Chatterjee, currently 18 years old, seeking admission to B.Sc. Physics at Presidency University, Kolkata.",
+    "expected_output": {
+      "name": "Ishaan Chatterjee",
+      "age": 18,
+      "profession": "B.Sc. Physics student",
+      "city": "Kolkata",
+      "college": "Presidency University"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college"
+      ],
+      "difficulty": "medium",
+      "subtype": "enrollment_context"
+    }
+  },
+  {
+    "id": "json_039",
+    "input": "Rekha Iyer is a 44-year-old marketing director at Hindustan Unilever, Mumbai. Her business email is rekha.iyer@hul.com.",
+    "expected_output": {
+      "name": "Rekha Iyer",
+      "age": 44,
+      "profession": "marketing director",
+      "city": "Mumbai",
+      "company": "Hindustan Unilever",
+      "email": "rekha.iyer@hul.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_040",
+    "input": "The form was submitted by Pranav Kulkarni, a 23-year-old currently completing his Ph.D. in Computer Vision at IISc Bangalore.",
+    "expected_output": {
+      "name": "Pranav Kulkarni",
+      "age": 23,
+      "profession": "Ph.D. student in Computer Vision",
+      "city": "Bangalore",
+      "college": "IISc"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college"
+      ],
+      "difficulty": "medium",
+      "subtype": "student_profile"
+    }
+  },
+  {
+    "id": "json_041",
+    "input": "Fatima Shaikh, age 29, is a nurse at Fortis Hospital in Gurgaon. She can be contacted at fatima.shaikh@fortis.com.",
+    "expected_output": {
+      "name": "Fatima Shaikh",
+      "age": 29,
+      "profession": "nurse",
+      "city": "Gurgaon",
+      "company": "Fortis Hospital",
+      "email": "fatima.shaikh@fortis.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_042",
+    "input": "My friend Sumanth Reddy just got placed. He's 22, a fresh graduate from Osmania University in Hyderabad, starting as a junior developer at Tech Mahindra.",
+    "expected_output": {
+      "name": "Sumanth Reddy",
+      "age": 22,
+      "profession": "junior developer",
+      "city": "Hyderabad",
+      "college": "Osmania University",
+      "company": "Tech Mahindra"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college",
+        "company"
+      ],
+      "difficulty": "hard",
+      "subtype": "informal_third_person"
+    }
+  },
+  {
+    "id": "json_043",
+    "input": "Shreya Jain (27 years, Indore) is a chartered accountant with her own practice. Contact her at shreya.jain.ca@gmail.com.",
+    "expected_output": {
+      "name": "Shreya Jain",
+      "age": 27,
+      "profession": "chartered accountant",
+      "city": "Indore",
+      "email": "shreya.jain.ca@gmail.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "parenthetical_format"
+    }
+  },
+  {
+    "id": "json_044",
+    "input": "Rohit Malhotra, 41 years old, serves as the Chief Technology Officer at PayTM, Noida. He studied Computer Science at IIT Delhi. Email: rohit.m@paytm.com.",
+    "expected_output": {
+      "name": "Rohit Malhotra",
+      "age": 41,
+      "profession": "Chief Technology Officer",
+      "city": "Noida",
+      "company": "PayTM",
+      "college": "IIT Delhi",
+      "email": "rohit.m@paytm.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "college",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "all_fields"
+    }
+  },
+  {
+    "id": "json_045",
+    "input": "Jyoti Prakash is a retired army officer aged 60, now living in Dehradun. He works part-time as a security consultant.",
+    "expected_output": {
+      "name": "Jyoti Prakash",
+      "age": 60,
+      "profession": "security consultant",
+      "city": "Dehradun"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city"
+      ],
+      "difficulty": "hard",
+      "subtype": "contextual_noise"
+    }
+  },
+  {
+    "id": "json_046",
+    "input": "Candidate details — Amrita Das, 24 years, B.Tech graduate from Jadavpur University, currently seeking employment in Kolkata. Email: amrita.das24@gmail.com.",
+    "expected_output": {
+      "name": "Amrita Das",
+      "age": 24,
+      "profession": "B.Tech graduate",
+      "city": "Kolkata",
+      "college": "Jadavpur University",
+      "email": "amrita.das24@gmail.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "candidate_form"
+    }
+  },
+  {
+    "id": "json_047",
+    "input": "Nikhil Varma has been working at ISRO for three years. He is 28, a satellite systems engineer based in Sriharikota.",
+    "expected_output": {
+      "name": "Nikhil Varma",
+      "age": 28,
+      "profession": "satellite systems engineer",
+      "city": "Sriharikota",
+      "company": "ISRO"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company"
+      ],
+      "difficulty": "medium",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_048",
+    "input": "I would like to introduce Chandrika Balasubramanian, 32, who heads the analytics team at Nykaa, Mumbai. Her email is chandrika.b@nykaa.com.",
+    "expected_output": {
+      "name": "Chandrika Balasubramanian",
+      "age": 32,
+      "profession": "analytics team head",
+      "city": "Mumbai",
+      "company": "Nykaa",
+      "email": "chandrika.b@nykaa.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "introduction_context"
+    }
+  },
+  {
+    "id": "json_049",
+    "input": "Sankar Narayanan, a 39-year-old investment banker, is currently based in Singapore, working for Goldman Sachs. He is a Chennai native. Email: s.narayanan@gs.com.",
+    "expected_output": {
+      "name": "Sankar Narayanan",
+      "age": 39,
+      "profession": "investment banker",
+      "city": "Singapore",
+      "company": "Goldman Sachs",
+      "email": "s.narayanan@gs.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "diaspora_profile"
+    }
+  },
+  {
+    "id": "json_050",
+    "input": "NPTEL registration: Name - Varsha Kumari, Age - 20, Institution - Amrita Vishwa Vidyapeetham, Coimbatore, Email - varsha.k20@amrita.edu.",
+    "expected_output": {
+      "name": "Varsha Kumari",
+      "age": 20,
+      "profession": "student",
+      "city": "Coimbatore",
+      "college": "Amrita Vishwa Vidyapeetham",
+      "email": "varsha.k20@amrita.edu"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "registration_form"
+    }
+  },
+  {
+    "id": "json_051",
+    "input": "Balaji Sundaram is 46 and works as a tax consultant in Chennai. He runs his own firm and can be reached at balaji.tax@gmail.com.",
+    "expected_output": {
+      "name": "Balaji Sundaram",
+      "age": 46,
+      "profession": "tax consultant",
+      "city": "Chennai",
+      "email": "balaji.tax@gmail.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_052",
+    "input": "The new joiner is Krithika Mohan, 25 years old, who will be working as a business analyst at Accenture's Pune office starting next Monday.",
+    "expected_output": {
+      "name": "Krithika Mohan",
+      "age": 25,
+      "profession": "business analyst",
+      "city": "Pune",
+      "company": "Accenture"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company"
+      ],
+      "difficulty": "medium",
+      "subtype": "onboarding_context"
+    }
+  },
+  {
+    "id": "json_053",
+    "input": "Meet Aryan Shah: 27 years old, full-stack developer, living in Surat, working remotely for a US-based startup called DevBridge. Email: aryan.shah@devbridge.io.",
+    "expected_output": {
+      "name": "Aryan Shah",
+      "age": 27,
+      "profession": "full-stack developer",
+      "city": "Surat",
+      "company": "DevBridge",
+      "email": "aryan.shah@devbridge.io"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "remote_work_profile"
+    }
+  },
+  {
+    "id": "json_054",
+    "input": "Padmavathi R., a 52-year-old retired professor from Madurai Kamaraj University, now volunteers at a local NGO in Madurai.",
+    "expected_output": {
+      "name": "Padmavathi R.",
+      "age": 52,
+      "profession": "retired professor",
+      "city": "Madurai",
+      "college": "Madurai Kamaraj University"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college"
+      ],
+      "difficulty": "hard",
+      "subtype": "retirement_context"
+    }
+  },
+  {
+    "id": "json_055",
+    "input": "Submission by: Ajmal Khan, age 23, student of B.Sc. Nursing at Manipal College of Nursing, Manipal. Email: ajmal.k23@manipal.edu.",
+    "expected_output": {
+      "name": "Ajmal Khan",
+      "age": 23,
+      "profession": "B.Sc. Nursing student",
+      "city": "Manipal",
+      "college": "Manipal College of Nursing",
+      "email": "ajmal.k23@manipal.edu"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "submission_form"
+    }
+  },
+  {
+    "id": "json_056",
+    "input": "Shruthi Venkat, 30, is an embedded systems engineer at Bosch in Coimbatore. She did her B.E. from PSG Tech and her email is shruthi.v@bosch.com.",
+    "expected_output": {
+      "name": "Shruthi Venkat",
+      "age": 30,
+      "profession": "embedded systems engineer",
+      "city": "Coimbatore",
+      "company": "Bosch",
+      "college": "PSG Tech",
+      "email": "shruthi.v@bosch.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "college",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "all_fields"
+    }
+  },
+  {
+    "id": "json_057",
+    "input": "Girish Babu is a 38-year-old logistics manager. He currently manages operations for Blue Dart in Nagpur.",
+    "expected_output": {
+      "name": "Girish Babu",
+      "age": 38,
+      "profession": "logistics manager",
+      "city": "Nagpur",
+      "company": "Blue Dart"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company"
+      ],
+      "difficulty": "easy",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_058",
+    "input": "This is Megha Thakur writing. I am 24 years old, currently studying M.Sc. Biotechnology at Savitribai Phule Pune University. My email is megha.t24@sppu.ac.in.",
+    "expected_output": {
+      "name": "Megha Thakur",
+      "age": 24,
+      "profession": "M.Sc. Biotechnology student",
+      "city": "Pune",
+      "college": "Savitribai Phule Pune University",
+      "email": "megha.t24@sppu.ac.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "first_person"
+    }
+  },
+  {
+    "id": "json_059",
+    "input": "The profile on file is for Ratan Ghosh, 47 years old, currently serving as the VP of Operations at Tata Steel, Jamshedpur. Contact: ratan.ghosh@tatasteel.com.",
+    "expected_output": {
+      "name": "Ratan Ghosh",
+      "age": 47,
+      "profession": "VP of Operations",
+      "city": "Jamshedpur",
+      "company": "Tata Steel",
+      "email": "ratan.ghosh@tatasteel.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_060",
+    "input": "Lalitha Krishnaswamy is 58 and has spent her career as a classical Carnatic vocalist and music teacher in Mysore.",
+    "expected_output": {
+      "name": "Lalitha Krishnaswamy",
+      "age": 58,
+      "profession": "Carnatic vocalist and music teacher",
+      "city": "Mysore"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city"
+      ],
+      "difficulty": "hard",
+      "subtype": "arts_profile"
+    }
+  },
+  {
+    "id": "json_061",
+    "input": "Rakesh Pillai is 29 years old. He completed his M.Tech from CUSAT and now works as an IoT engineer at Siemens, Pune. Email: rakesh.p@siemens.com.",
+    "expected_output": {
+      "name": "Rakesh Pillai",
+      "age": 29,
+      "profession": "IoT engineer",
+      "city": "Pune",
+      "company": "Siemens",
+      "college": "CUSAT",
+      "email": "rakesh.p@siemens.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "college",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "all_fields"
+    }
+  },
+  {
+    "id": "json_062",
+    "input": "Sonal Mishra (age 26), a UX researcher at InMobi Bangalore, previously studied Design Thinking at NID Ahmedabad.",
+    "expected_output": {
+      "name": "Sonal Mishra",
+      "age": 26,
+      "profession": "UX researcher",
+      "city": "Bangalore",
+      "company": "InMobi",
+      "college": "NID Ahmedabad"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "college"
+      ],
+      "difficulty": "medium",
+      "subtype": "parenthetical_format"
+    }
+  },
+  {
+    "id": "json_063",
+    "input": "Introducing our keynote speaker, Professor Jayachandran Pillai, 63, from the Department of Physics at University of Calicut, Kerala. Email: j.pillai@uoc.ac.in.",
+    "expected_output": {
+      "name": "Professor Jayachandran Pillai",
+      "age": 63,
+      "profession": "professor",
+      "city": "Calicut",
+      "college": "University of Calicut",
+      "email": "j.pillai@uoc.ac.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "academic_profile"
+    }
+  },
+  {
+    "id": "json_064",
+    "input": "Teja Varma, 31, recently relocated from Vizag to Hyderabad and is now a senior consultant at Deloitte. You can email him at teja.varma@deloitte.com.",
+    "expected_output": {
+      "name": "Teja Varma",
+      "age": 31,
+      "profession": "senior consultant",
+      "city": "Hyderabad",
+      "company": "Deloitte",
+      "email": "teja.varma@deloitte.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "hard",
+      "subtype": "relocation_context"
+    }
+  },
+  {
+    "id": "json_065",
+    "input": "Nandini Choudhary is a 20-year-old second-year student studying B.Com at Christ University, Bangalore. She's from Bhubaneswar.",
+    "expected_output": {
+      "name": "Nandini Choudhary",
+      "age": 20,
+      "profession": "B.Com student",
+      "city": "Bhubaneswar",
+      "college": "Christ University"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college"
+      ],
+      "difficulty": "medium",
+      "subtype": "student_profile"
+    }
+  },
+  {
+    "id": "json_066",
+    "input": "The biodata states: Venkatesh Naidu, male, age 36, civil servant (IAS), currently posted as District Collector in Tirunelveli.",
+    "expected_output": {
+      "name": "Venkatesh Naidu",
+      "age": 36,
+      "profession": "District Collector",
+      "city": "Tirunelveli"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city"
+      ],
+      "difficulty": "hard",
+      "subtype": "biodata_format"
+    }
+  },
+  {
+    "id": "json_067",
+    "input": "Chitra Ramachandran, 43, is a senior radiologist at Sri Ramachandra Hospital in Chennai. Her email is chitra.r@sriramachandra.edu.in.",
+    "expected_output": {
+      "name": "Chitra Ramachandran",
+      "age": 43,
+      "profession": "senior radiologist",
+      "city": "Chennai",
+      "company": "Sri Ramachandra Hospital",
+      "email": "chitra.r@sriramachandra.edu.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_068",
+    "input": "I am writing on behalf of Pramod Kumar, 34, an agricultural scientist at ICAR in New Delhi. His email is pramod.k@icar.gov.in.",
+    "expected_output": {
+      "name": "Pramod Kumar",
+      "age": 34,
+      "profession": "agricultural scientist",
+      "city": "New Delhi",
+      "company": "ICAR",
+      "email": "pramod.k@icar.gov.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "third_party_submission"
+    }
+  },
+  {
+    "id": "json_069",
+    "input": "Vasanth Raj just turned 22. He's wrapping up his final year at Thiagarajar College of Engineering in Madurai, majoring in Computer Science.",
+    "expected_output": {
+      "name": "Vasanth Raj",
+      "age": 22,
+      "profession": "Computer Science student",
+      "city": "Madurai",
+      "college": "Thiagarajar College of Engineering"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college"
+      ],
+      "difficulty": "medium",
+      "subtype": "student_profile"
+    }
+  },
+  {
+    "id": "json_070",
+    "input": "Sunitha Krishnan, 50, is the founder and executive director of Prajwala NGO, Hyderabad. Contact: sunitha@prajwalaindia.com.",
+    "expected_output": {
+      "name": "Sunitha Krishnan",
+      "age": 50,
+      "profession": "founder and executive director",
+      "city": "Hyderabad",
+      "company": "Prajwala NGO",
+      "email": "sunitha@prajwalaindia.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "ngo_profile"
+    }
+  },
+  {
+    "id": "json_071",
+    "input": "Nitin Aggarwal, a 28-year-old from Chandigarh, works as a network engineer at Jio in their Gurugram office. His official email is nitin.a@jio.com.",
+    "expected_output": {
+      "name": "Nitin Aggarwal",
+      "age": 28,
+      "profession": "network engineer",
+      "city": "Gurugram",
+      "company": "Jio",
+      "email": "nitin.a@jio.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "origin_vs_work_city"
+    }
+  },
+  {
+    "id": "json_072",
+    "input": "The scholarship application is from Pavithra Devi, age 19, currently enrolled in B.Tech Electrical at Sri Sivasubramaniya Nadar College of Engineering, Kalavakkam.",
+    "expected_output": {
+      "name": "Pavithra Devi",
+      "age": 19,
+      "profession": "B.Tech Electrical Engineering student",
+      "city": "Kalavakkam",
+      "college": "Sri Sivasubramaniya Nadar College of Engineering"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college"
+      ],
+      "difficulty": "medium",
+      "subtype": "scholarship_context"
+    }
+  },
+  {
+    "id": "json_073",
+    "input": "Shankar Venugopal is 55 years old and recently retired as a Deputy General Manager from BSNL after 30 years of service. He lives in Coimbatore.",
+    "expected_output": {
+      "name": "Shankar Venugopal",
+      "age": 55,
+      "profession": "retired Deputy General Manager",
+      "city": "Coimbatore",
+      "company": "BSNL"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company"
+      ],
+      "difficulty": "hard",
+      "subtype": "retirement_context"
+    }
+  },
+  {
+    "id": "json_074",
+    "input": "Ayesha Begum, 27, is a speech therapist at Rainbow Children's Hospital, Bangalore. Her email is ayesha.b@rainbowhospitals.in.",
+    "expected_output": {
+      "name": "Ayesha Begum",
+      "age": 27,
+      "profession": "speech therapist",
+      "city": "Bangalore",
+      "company": "Rainbow Children's Hospital",
+      "email": "ayesha.b@rainbowhospitals.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_075",
+    "input": "Details of the applicant: Subramanian P., 33 years old, senior software architect, Oracle India, Bangalore. Email: subramanian.p@oracle.com.",
+    "expected_output": {
+      "name": "Subramanian P.",
+      "age": 33,
+      "profession": "senior software architect",
+      "city": "Bangalore",
+      "company": "Oracle India",
+      "email": "subramanian.p@oracle.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "form_style"
+    }
+  },
+  {
+    "id": "json_076",
+    "input": "Keerthana Suresh is pursuing her MBA second year at XLRI Jamshedpur. She is 24 years old and originally from Salem, Tamil Nadu.",
+    "expected_output": {
+      "name": "Keerthana Suresh",
+      "age": 24,
+      "profession": "MBA student",
+      "city": "Salem",
+      "college": "XLRI Jamshedpur"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college"
+      ],
+      "difficulty": "medium",
+      "subtype": "student_profile"
+    }
+  },
+  {
+    "id": "json_077",
+    "input": "Vivek Oberoi (32 years, not the actor) is a structural engineer at AECOM in their Mumbai office. Email: vivek.oberoi@aecom.com.",
+    "expected_output": {
+      "name": "Vivek Oberoi",
+      "age": 32,
+      "profession": "structural engineer",
+      "city": "Mumbai",
+      "company": "AECOM",
+      "email": "vivek.oberoi@aecom.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "parenthetical_noise"
+    }
+  },
+  {
+    "id": "json_078",
+    "input": "As per our records, Dr. Meenakshi Sundaram, 49, is a cardiologist at Kauvery Hospital in Trichy. Her institutional email is m.sundaram@kauvery.com.",
+    "expected_output": {
+      "name": "Dr. Meenakshi Sundaram",
+      "age": 49,
+      "profession": "cardiologist",
+      "city": "Trichy",
+      "company": "Kauvery Hospital",
+      "email": "m.sundaram@kauvery.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "medical_profile"
+    }
+  },
+  {
+    "id": "json_079",
+    "input": "Riya Desai (age 21) is in her third year studying BA English Literature at Miranda House, Delhi. She can be contacted at riya.desai21@mirandahouse.ac.in.",
+    "expected_output": {
+      "name": "Riya Desai",
+      "age": 21,
+      "profession": "BA English Literature student",
+      "city": "Delhi",
+      "college": "Miranda House",
+      "email": "riya.desai21@mirandahouse.ac.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "student_profile"
+    }
+  },
+  {
+    "id": "json_080",
+    "input": "The event speaker's bio: Harish Chand, 44, entrepreneur and co-founder of EduBridge, an edtech startup in Bangalore. Email: harish@edubridge.in.",
+    "expected_output": {
+      "name": "Harish Chand",
+      "age": 44,
+      "profession": "entrepreneur and co-founder",
+      "city": "Bangalore",
+      "company": "EduBridge",
+      "email": "harish@edubridge.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "bio_format"
+    }
+  },
+  {
+    "id": "json_081",
+    "input": "Name: Ramya Krishnan. Age: 31. Occupation: Physiotherapist. Hospital: NIMHANS. City: Bangalore. Email: ramya.k@nimhans.ac.in.",
+    "expected_output": {
+      "name": "Ramya Krishnan",
+      "age": 31,
+      "profession": "physiotherapist",
+      "city": "Bangalore",
+      "company": "NIMHANS",
+      "email": "ramya.k@nimhans.ac.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "key_value_format"
+    }
+  },
+  {
+    "id": "json_082",
+    "input": "Prateek Bansod, 26, is doing his internship as a data engineer at Netflix India, Bangalore, while completing his M.Tech from IIT Bombay.",
+    "expected_output": {
+      "name": "Prateek Bansod",
+      "age": 26,
+      "profession": "data engineer intern",
+      "city": "Bangalore",
+      "company": "Netflix India",
+      "college": "IIT Bombay"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "college"
+      ],
+      "difficulty": "hard",
+      "subtype": "internship_context"
+    }
+  },
+  {
+    "id": "json_083",
+    "input": "Rajalakshmi P., 40, teaches Chemistry at KV School in Trichy. She holds an M.Sc. from Bharathidasan University.",
+    "expected_output": {
+      "name": "Rajalakshmi P.",
+      "age": 40,
+      "profession": "Chemistry teacher",
+      "city": "Trichy",
+      "company": "KV School",
+      "college": "Bharathidasan University"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "college"
+      ],
+      "difficulty": "medium",
+      "subtype": "teacher_profile"
+    }
+  },
+  {
+    "id": "json_084",
+    "input": "The mentee profile shows Dinesh Babu, age 23, a recent placement at Capgemini as a software trainee. He studied at Sathyabama University, Chennai.",
+    "expected_output": {
+      "name": "Dinesh Babu",
+      "age": 23,
+      "profession": "software trainee",
+      "city": "Chennai",
+      "company": "Capgemini",
+      "college": "Sathyabama University"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "college"
+      ],
+      "difficulty": "medium",
+      "subtype": "mentee_profile"
+    }
+  },
+  {
+    "id": "json_085",
+    "input": "Uday Shankar is a 37-year-old food technologist based in Mysore, working at Britannia Industries. Contact him at uday.s@britannia.co.in.",
+    "expected_output": {
+      "name": "Uday Shankar",
+      "age": 37,
+      "profession": "food technologist",
+      "city": "Mysore",
+      "company": "Britannia Industries",
+      "email": "uday.s@britannia.co.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_086",
+    "input": "Anbu Selvan is 28 and hails from Tirunelveli. He is currently a railway engineer at Southern Railway and lives in Chennai.",
+    "expected_output": {
+      "name": "Anbu Selvan",
+      "age": 28,
+      "profession": "railway engineer",
+      "city": "Chennai",
+      "company": "Southern Railway"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company"
+      ],
+      "difficulty": "medium",
+      "subtype": "origin_vs_work_city"
+    }
+  },
+  {
+    "id": "json_087",
+    "input": "Vandhana Rajan — Age 35 — Role: Clinical Psychologist — Organisation: NIMHANS, Bangalore — Email: vandhana.r@nimhans.ac.in.",
+    "expected_output": {
+      "name": "Vandhana Rajan",
+      "age": 35,
+      "profession": "clinical psychologist",
+      "city": "Bangalore",
+      "company": "NIMHANS",
+      "email": "vandhana.r@nimhans.ac.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "dash_separated_format"
+    }
+  },
+  {
+    "id": "json_088",
+    "input": "Sudhakar Rao recently completed 10 years at DRDO. He is 42, a defence scientist posted in Hyderabad. Email: sudhakar.rao@drdo.gov.in.",
+    "expected_output": {
+      "name": "Sudhakar Rao",
+      "age": 42,
+      "profession": "defence scientist",
+      "city": "Hyderabad",
+      "company": "DRDO",
+      "email": "sudhakar.rao@drdo.gov.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "tenure_context"
+    }
+  },
+  {
+    "id": "json_089",
+    "input": "Deepa Nambiar, 29 years old, is a pharmacist working at a government hospital in Kottayam, Kerala.",
+    "expected_output": {
+      "name": "Deepa Nambiar",
+      "age": 29,
+      "profession": "pharmacist",
+      "city": "Kottayam"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city"
+      ],
+      "difficulty": "easy",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_090",
+    "input": "The system shows the following for user ID #4421: Name — Ashwin Prabhu, Age — 27, Role — Site Reliability Engineer, Employer — Swiggy, Location — Bangalore, Email — ashwin.p@swiggy.in.",
+    "expected_output": {
+      "name": "Ashwin Prabhu",
+      "age": 27,
+      "profession": "Site Reliability Engineer",
+      "city": "Bangalore",
+      "company": "Swiggy",
+      "email": "ashwin.p@swiggy.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "system_record_format"
+    }
+  },
+  {
+    "id": "json_091",
+    "input": "Kousalya Devi is 48 years old and has been principal of a government school in Salem for the last eight years.",
+    "expected_output": {
+      "name": "Kousalya Devi",
+      "age": 48,
+      "profession": "school principal",
+      "city": "Salem"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city"
+      ],
+      "difficulty": "easy",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_092",
+    "input": "Kiran Mazumdar, aged 24, is a final-year doctoral candidate at IIT Kharagpur, working on renewable energy systems. Contact: kiran.m@iitkgp.ac.in.",
+    "expected_output": {
+      "name": "Kiran Mazumdar",
+      "age": 24,
+      "profession": "doctoral candidate",
+      "city": "Kharagpur",
+      "college": "IIT Kharagpur",
+      "email": "kiran.m@iitkgp.ac.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "student_profile"
+    }
+  },
+  {
+    "id": "json_093",
+    "input": "This is Manikandan S., 39 years old, working as a quality control manager at TVS Motors in Hosur. Email: manikandan.s@tvsmotor.com.",
+    "expected_output": {
+      "name": "Manikandan S.",
+      "age": 39,
+      "profession": "quality control manager",
+      "city": "Hosur",
+      "company": "TVS Motors",
+      "email": "manikandan.s@tvsmotor.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_094",
+    "input": "Latha Sundaresan, 33, used to work at McKinsey but now runs an independent strategy consulting practice from her home in Coimbatore.",
+    "expected_output": {
+      "name": "Latha Sundaresan",
+      "age": 33,
+      "profession": "strategy consultant",
+      "city": "Coimbatore"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city"
+      ],
+      "difficulty": "hard",
+      "subtype": "implicit_profession"
+    }
+  },
+  {
+    "id": "json_095",
+    "input": "Please find details of the attendee: Karthikeyan M., 26 years old, B.Tech graduate, junior software engineer at Zoho, Chennai, reachable at karthikeyan.m@zoho.com.",
+    "expected_output": {
+      "name": "Karthikeyan M.",
+      "age": 26,
+      "profession": "junior software engineer",
+      "city": "Chennai",
+      "company": "Zoho",
+      "email": "karthikeyan.m@zoho.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "attendee_record"
+    }
+  },
+  {
+    "id": "json_096",
+    "input": "Savitha Ravi is 45 and retired from her position as a Bank Manager at Canara Bank in Madurai. She now lives in Tirupur.",
+    "expected_output": {
+      "name": "Savitha Ravi",
+      "age": 45,
+      "profession": "retired Bank Manager",
+      "city": "Tirupur",
+      "company": "Canara Bank"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company"
+      ],
+      "difficulty": "hard",
+      "subtype": "retirement_context"
+    }
+  },
+  {
+    "id": "json_097",
+    "input": "Jayendra Patel, 32, is a chartered engineer at ABB India, Vadodara. He studied Electrical Engineering at the MS University of Baroda. Email: jayendra.p@abb.com.",
+    "expected_output": {
+      "name": "Jayendra Patel",
+      "age": 32,
+      "profession": "chartered engineer",
+      "city": "Vadodara",
+      "company": "ABB India",
+      "college": "MS University of Baroda",
+      "email": "jayendra.p@abb.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "college",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "all_fields"
+    }
+  },
+  {
+    "id": "json_098",
+    "input": "Tejas Kulkarni is 19 years old and recently joined B.Tech in Mechanical Engineering at College of Engineering Pune. He is from Nashik.",
+    "expected_output": {
+      "name": "Tejas Kulkarni",
+      "age": 19,
+      "profession": "B.Tech Mechanical Engineering student",
+      "city": "Nashik",
+      "college": "College of Engineering Pune"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college"
+      ],
+      "difficulty": "easy",
+      "subtype": "student_profile"
+    }
+  },
+  {
+    "id": "json_099",
+    "input": "The referral is from Nirmala Devi Krishnan, a 53-year-old senior advocate practising at the Madras High Court, Chennai. Contact her at nirmala.devi@madraslegal.in.",
+    "expected_output": {
+      "name": "Nirmala Devi Krishnan",
+      "age": 53,
+      "profession": "senior advocate",
+      "city": "Chennai",
+      "company": "Madras High Court",
+      "email": "nirmala.devi@madraslegal.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "legal_profile"
+    }
+  },
+  {
+    "id": "json_100",
+    "input": "Sathish Kumar V., 30, is a research scientist at CSIR-CECRI in Karaikudi, Tamil Nadu. His email is sathish.v@cecri.res.in.",
+    "expected_output": {
+      "name": "Sathish Kumar V.",
+      "age": 30,
+      "profession": "research scientist",
+      "city": "Karaikudi",
+      "company": "CSIR-CECRI",
+      "email": "sathish.v@cecri.res.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "research_profile"
+    }
+  },
+  {
+    "id": "json_101",
+    "input": "Manisha Tripathi is a 27-year-old content writer currently based in Bhopal. She works freelance and her email is manisha.writes@gmail.com.",
+    "expected_output": {
+      "name": "Manisha Tripathi",
+      "age": 27,
+      "profession": "content writer",
+      "city": "Bhopal",
+      "company": "freelancer",
+      "email": "manisha.writes@gmail.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "freelancer_profile"
+    }
+  },
+  {
+    "id": "json_102",
+    "input": "Our volunteer coordinator is Priya Balaji, 34, a social worker from Chennai, reachable at priya.balaji@ngo.org.",
+    "expected_output": {
+      "name": "Priya Balaji",
+      "age": 34,
+      "profession": "social worker",
+      "city": "Chennai",
+      "email": "priya.balaji@ngo.org"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "ngo_profile"
+    }
+  },
+  {
+    "id": "json_103",
+    "input": "Abhinav Srivastava (29 years old) recently shifted from Lucknow to Bangalore where he now works as a product designer at Meesho. His email is abhinav.s@meesho.com.",
+    "expected_output": {
+      "name": "Abhinav Srivastava",
+      "age": 29,
+      "profession": "product designer",
+      "city": "Bangalore",
+      "company": "Meesho",
+      "email": "abhinav.s@meesho.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "relocation_context"
+    }
+  },
+  {
+    "id": "json_104",
+    "input": "Roopa Venkataraman, 41, heads the compliance department at SEBI's Chennai regional office. Contact: roopa.v@sebi.gov.in.",
+    "expected_output": {
+      "name": "Roopa Venkataraman",
+      "age": 41,
+      "profession": "compliance department head",
+      "city": "Chennai",
+      "company": "SEBI",
+      "email": "roopa.v@sebi.gov.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "government_profile"
+    }
+  },
+  {
+    "id": "json_105",
+    "input": "Hi, I am Muthukumar R., 44 years old, currently employed as an Assistant Professor of Mathematics at Annamalai University in Chidambaram. Email: muthu.r@annamalaiuniversity.ac.in.",
+    "expected_output": {
+      "name": "Muthukumar R.",
+      "age": 44,
+      "profession": "Assistant Professor of Mathematics",
+      "city": "Chidambaram",
+      "college": "Annamalai University",
+      "email": "muthu.r@annamalaiuniversity.ac.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "first_person"
+    }
+  },
+  {
+    "id": "json_106",
+    "input": "The candidate Divyesh Mehta, 31, was previously at IBM and now works as a solutions architect at Salesforce, Hyderabad. Email: divyesh.m@salesforce.com.",
+    "expected_output": {
+      "name": "Divyesh Mehta",
+      "age": 31,
+      "profession": "solutions architect",
+      "city": "Hyderabad",
+      "company": "Salesforce",
+      "email": "divyesh.m@salesforce.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "career_transition_context"
+    }
+  },
+  {
+    "id": "json_107",
+    "input": "Saranya Murugesan is 22 years old and just started her Master's in Environmental Science at Pondicherry University. She is from Cuddalore.",
+    "expected_output": {
+      "name": "Saranya Murugesan",
+      "age": 22,
+      "profession": "Master's in Environmental Science student",
+      "city": "Cuddalore",
+      "college": "Pondicherry University"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college"
+      ],
+      "difficulty": "easy",
+      "subtype": "student_profile"
+    }
+  },
+  {
+    "id": "json_108",
+    "input": "Rajiv Menon, aged 48, is the Managing Director of Menon Agro Industries, a family business based in Erode, Tamil Nadu.",
+    "expected_output": {
+      "name": "Rajiv Menon",
+      "age": 48,
+      "profession": "Managing Director",
+      "city": "Erode",
+      "company": "Menon Agro Industries"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company"
+      ],
+      "difficulty": "medium",
+      "subtype": "business_owner_profile"
+    }
+  },
+  {
+    "id": "json_109",
+    "input": "Hema Malini (45 years, not the actress) is a lab technician at SRM Medical College, Kattankulathur. Email: hema.m@srmist.edu.in.",
+    "expected_output": {
+      "name": "Hema Malini",
+      "age": 45,
+      "profession": "lab technician",
+      "city": "Kattankulathur",
+      "college": "SRM Medical College",
+      "email": "hema.m@srmist.edu.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "parenthetical_noise"
+    }
+  },
+  {
+    "id": "json_110",
+    "input": "Suresh Babu Natarajan, 36, is a supply chain consultant at EY India, working out of their Gurgaon office. His email is suresh.n@ey.com.",
+    "expected_output": {
+      "name": "Suresh Babu Natarajan",
+      "age": 36,
+      "profession": "supply chain consultant",
+      "city": "Gurgaon",
+      "company": "EY India",
+      "email": "suresh.n@ey.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_111",
+    "input": "Sowmiya K. is a 23-year-old pursuing her integrated M.Sc. Physics at the University of Hyderabad. She is from Tiruppur.",
+    "expected_output": {
+      "name": "Sowmiya K.",
+      "age": 23,
+      "profession": "integrated M.Sc. Physics student",
+      "city": "Tiruppur",
+      "college": "University of Hyderabad"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college"
+      ],
+      "difficulty": "medium",
+      "subtype": "student_profile"
+    }
+  },
+  {
+    "id": "json_112",
+    "input": "Venki Natarajan, 53, is a veteran journalist at The Hindu, currently serving as the Senior Editor based in Chennai. Email: venki.n@thehindu.com.",
+    "expected_output": {
+      "name": "Venki Natarajan",
+      "age": 53,
+      "profession": "Senior Editor",
+      "city": "Chennai",
+      "company": "The Hindu",
+      "email": "venki.n@thehindu.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "media_profile"
+    }
+  },
+  {
+    "id": "json_113",
+    "input": "This is a guest pass for Narayanan Subba Rao, 67, a former Chief Justice of the Madras High Court, currently residing in Chennai.",
+    "expected_output": {
+      "name": "Narayanan Subba Rao",
+      "age": 67,
+      "profession": "former Chief Justice",
+      "city": "Chennai"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city"
+      ],
+      "difficulty": "hard",
+      "subtype": "event_pass_context"
+    }
+  },
+  {
+    "id": "json_114",
+    "input": "Akash Verma, 25, holds a B.Sc. in Data Science from NMIMS Mumbai and now works as a data analyst at HDFC Bank, Mumbai. Email: akash.v@hdfcbank.com.",
+    "expected_output": {
+      "name": "Akash Verma",
+      "age": 25,
+      "profession": "data analyst",
+      "city": "Mumbai",
+      "company": "HDFC Bank",
+      "college": "NMIMS Mumbai",
+      "email": "akash.v@hdfcbank.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "college",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "all_fields"
+    }
+  },
+  {
+    "id": "json_115",
+    "input": "Indira Srinivasan is 59, a retired IRS officer who lives in Madurai and currently works as an independent tax advisor.",
+    "expected_output": {
+      "name": "Indira Srinivasan",
+      "age": 59,
+      "profession": "retired IRS officer / tax advisor",
+      "city": "Madurai"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city"
+      ],
+      "difficulty": "hard",
+      "subtype": "retirement_context"
+    }
+  },
+  {
+    "id": "json_116",
+    "input": "Sujith Nair, age 31, joined last month as a senior backend engineer at CRED, Bangalore. He studied at NIT Calicut. His official email is sujith.n@cred.club.",
+    "expected_output": {
+      "name": "Sujith Nair",
+      "age": 31,
+      "profession": "senior backend engineer",
+      "city": "Bangalore",
+      "company": "CRED",
+      "college": "NIT Calicut",
+      "email": "sujith.n@cred.club"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "college",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "all_fields"
+    }
+  },
+  {
+    "id": "json_117",
+    "input": "Malarvizhi T., 37, is a WBCS officer posted in Kolkata. She handles the administrative affairs of Kolkata district.",
+    "expected_output": {
+      "name": "Malarvizhi T.",
+      "age": 37,
+      "profession": "WBCS officer",
+      "city": "Kolkata"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city"
+      ],
+      "difficulty": "medium",
+      "subtype": "government_profile"
+    }
+  },
+  {
+    "id": "json_118",
+    "input": "Dhanasekaran P. is 43 and serves as the General Manager at India Cements, Chennai. Contact: dhana.p@indiacements.co.in.",
+    "expected_output": {
+      "name": "Dhanasekaran P.",
+      "age": 43,
+      "profession": "General Manager",
+      "city": "Chennai",
+      "company": "India Cements",
+      "email": "dhana.p@indiacements.co.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_119",
+    "input": "I'm Priyadarshini Mohan, 26. I recently completed my MCA from Vellore Institute of Technology and joined as a systems analyst at Wipro, Chennai. My email is priya.mohan@wipro.com.",
+    "expected_output": {
+      "name": "Priyadarshini Mohan",
+      "age": 26,
+      "profession": "systems analyst",
+      "city": "Chennai",
+      "company": "Wipro",
+      "college": "Vellore Institute of Technology",
+      "email": "priya.mohan@wipro.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "college",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "all_fields"
+    }
+  },
+  {
+    "id": "json_120",
+    "input": "Balamurugan K. is a 50-year-old senior geologist at ONGC, currently stationed in Rajahmundry, Andhra Pradesh.",
+    "expected_output": {
+      "name": "Balamurugan K.",
+      "age": 50,
+      "profession": "senior geologist",
+      "city": "Rajahmundry",
+      "company": "ONGC"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company"
+      ],
+      "difficulty": "easy",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_121",
+    "input": "The internship applicant Rukmini Devi, 20, is in her second year of B.Tech CSE at Amrita University, Coimbatore. Email: rukmini.d20@amrita.edu.",
+    "expected_output": {
+      "name": "Rukmini Devi",
+      "age": 20,
+      "profession": "B.Tech CSE student",
+      "city": "Coimbatore",
+      "college": "Amrita University",
+      "email": "rukmini.d20@amrita.edu"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "internship_application"
+    }
+  },
+  {
+    "id": "json_122",
+    "input": "Saravanan T., 38, is a town planning engineer at the Chennai Metropolitan Development Authority. His government email is saravanan.t@cmda.gov.in.",
+    "expected_output": {
+      "name": "Saravanan T.",
+      "age": 38,
+      "profession": "town planning engineer",
+      "city": "Chennai",
+      "company": "Chennai Metropolitan Development Authority",
+      "email": "saravanan.t@cmda.gov.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "government_profile"
+    }
+  },
+  {
+    "id": "json_123",
+    "input": "Aruna Venkatesh, aged 32, is a fashion designer running her own label in Bengaluru. Her business email is aruna@arv-designs.in.",
+    "expected_output": {
+      "name": "Aruna Venkatesh",
+      "age": 32,
+      "profession": "fashion designer",
+      "city": "Bengaluru",
+      "email": "aruna@arv-designs.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "entrepreneur_profile"
+    }
+  },
+  {
+    "id": "json_124",
+    "input": "Name: Thiruvenkatam G. Age: 56. Occupation: Retired Sub-Inspector of Police. Current City: Salem, Tamil Nadu.",
+    "expected_output": {
+      "name": "Thiruvenkatam G.",
+      "age": 56,
+      "profession": "retired Sub-Inspector of Police",
+      "city": "Salem"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city"
+      ],
+      "difficulty": "easy",
+      "subtype": "key_value_format"
+    }
+  },
+  {
+    "id": "json_125",
+    "input": "Elangovan S. (27 years) is a junior research fellow at Anna University, Chennai, working on AI for healthcare. Email: elango.s@annauniv.edu.",
+    "expected_output": {
+      "name": "Elangovan S.",
+      "age": 27,
+      "profession": "junior research fellow",
+      "city": "Chennai",
+      "college": "Anna University",
+      "email": "elango.s@annauniv.edu"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "research_profile"
+    }
+  },
+  {
+    "id": "json_126",
+    "input": "Nisha Joseph, 29, is a registered dietitian working at Aster Medcity in Kochi. She can be reached at nisha.j@asterhospitals.in.",
+    "expected_output": {
+      "name": "Nisha Joseph",
+      "age": 29,
+      "profession": "registered dietitian",
+      "city": "Kochi",
+      "company": "Aster Medcity",
+      "email": "nisha.j@asterhospitals.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "medical_profile"
+    }
+  },
+  {
+    "id": "json_127",
+    "input": "The user's profile says: Selvakumar M., 40 years old, works as a maintenance engineer at TANGEDCO power plant, Ennore, Chennai.",
+    "expected_output": {
+      "name": "Selvakumar M.",
+      "age": 40,
+      "profession": "maintenance engineer",
+      "city": "Chennai",
+      "company": "TANGEDCO"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company"
+      ],
+      "difficulty": "medium",
+      "subtype": "system_record_format"
+    }
+  },
+  {
+    "id": "json_128",
+    "input": "Asha Jyothi is 24 years old, hailing from Warangal. She recently got placed at Infosys as a systems engineer and starts next month in Hyderabad.",
+    "expected_output": {
+      "name": "Asha Jyothi",
+      "age": 24,
+      "profession": "systems engineer",
+      "city": "Hyderabad",
+      "company": "Infosys"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company"
+      ],
+      "difficulty": "hard",
+      "subtype": "placement_context"
+    }
+  },
+  {
+    "id": "json_129",
+    "input": "Ravindra Jain, 51, is a retired bank manager and now manages a small stationery business in Agra.",
+    "expected_output": {
+      "name": "Ravindra Jain",
+      "age": 51,
+      "profession": "stationery business owner",
+      "city": "Agra"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city"
+      ],
+      "difficulty": "hard",
+      "subtype": "implicit_profession"
+    }
+  },
+  {
+    "id": "json_130",
+    "input": "Our faculty directory lists: Dr. Radhakrishnan Pillai, 57, Professor and Head of Civil Engineering, National Institute of Technology Calicut. Email: rk.pillai@nitc.ac.in.",
+    "expected_output": {
+      "name": "Dr. Radhakrishnan Pillai",
+      "age": 57,
+      "profession": "Professor and Head of Civil Engineering",
+      "city": "Calicut",
+      "college": "National Institute of Technology Calicut",
+      "email": "rk.pillai@nitc.ac.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "faculty_directory"
+    }
+  },
+  {
+    "id": "json_131",
+    "input": "Geetha Lakshmi, 46, is the founder of SparkLearn EdTech based in Coimbatore. She can be contacted at geetha@sparklearn.in.",
+    "expected_output": {
+      "name": "Geetha Lakshmi",
+      "age": 46,
+      "profession": "founder",
+      "city": "Coimbatore",
+      "company": "SparkLearn EdTech",
+      "email": "geetha@sparklearn.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "startup_profile"
+    }
+  },
+  {
+    "id": "json_132",
+    "input": "Vignesh Baskaran, a 28-year-old mechanical design engineer, works at Larsen & Toubro's aerospace division in Chennai. His email is vignesh.b@lntecc.com.",
+    "expected_output": {
+      "name": "Vignesh Baskaran",
+      "age": 28,
+      "profession": "mechanical design engineer",
+      "city": "Chennai",
+      "company": "Larsen & Toubro",
+      "email": "vignesh.b@lntecc.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "professional_profile"
+    }
+  },
+  {
+    "id": "json_133",
+    "input": "Preeti Nambiar, 35, is a certified yoga instructor and wellness coach based in Thrissur, Kerala. Contact: preeti.yoga@gmail.com.",
+    "expected_output": {
+      "name": "Preeti Nambiar",
+      "age": 35,
+      "profession": "yoga instructor and wellness coach",
+      "city": "Thrissur",
+      "email": "preeti.yoga@gmail.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "wellness_profile"
+    }
+  },
+  {
+    "id": "json_134",
+    "input": "Krishnaswamy Iyer, 70, a retired Supreme Court advocate, lives in Chennai and occasionally writes for legal journals.",
+    "expected_output": {
+      "name": "Krishnaswamy Iyer",
+      "age": 70,
+      "profession": "retired Supreme Court advocate",
+      "city": "Chennai"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city"
+      ],
+      "difficulty": "medium",
+      "subtype": "retirement_context"
+    }
+  },
+  {
+    "id": "json_135",
+    "input": "Harsha Vardhan N., 31, is a marine engineer currently posted aboard a vessel operated by Shipping Corporation of India. Home port: Mumbai.",
+    "expected_output": {
+      "name": "Harsha Vardhan N.",
+      "age": 31,
+      "profession": "marine engineer",
+      "city": "Mumbai",
+      "company": "Shipping Corporation of India"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company"
+      ],
+      "difficulty": "hard",
+      "subtype": "unique_work_context"
+    }
+  },
+  {
+    "id": "json_136",
+    "input": "Kowsalya M., age 24, is a law student in her third year at School of Excellence in Law, Chennai. Email: kowsalya.m24@soel.ac.in.",
+    "expected_output": {
+      "name": "Kowsalya M.",
+      "age": 24,
+      "profession": "law student",
+      "city": "Chennai",
+      "college": "School of Excellence in Law",
+      "email": "kowsalya.m24@soel.ac.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "student_profile"
+    }
+  },
+  {
+    "id": "json_137",
+    "input": "Anand Krishnamoorthi is 43. He serves as the Superintendent of Police in Tiruppur district, Tamil Nadu.",
+    "expected_output": {
+      "name": "Anand Krishnamoorthi",
+      "age": 43,
+      "profession": "Superintendent of Police",
+      "city": "Tiruppur"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city"
+      ],
+      "difficulty": "easy",
+      "subtype": "government_profile"
+    }
+  },
+  {
+    "id": "json_138",
+    "input": "Sarvesh Mishra, 26, completed his PGDM from IIM Lucknow and now works at KPMG India in Mumbai as a management consultant. Email: sarvesh.m@kpmg.com.",
+    "expected_output": {
+      "name": "Sarvesh Mishra",
+      "age": 26,
+      "profession": "management consultant",
+      "city": "Mumbai",
+      "company": "KPMG India",
+      "college": "IIM Lucknow",
+      "email": "sarvesh.m@kpmg.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "college",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "all_fields"
+    }
+  },
+  {
+    "id": "json_139",
+    "input": "Ramyasri D. is a 22-year-old final-year student at Velammal Engineering College, Chennai, studying Electronics and Communication.",
+    "expected_output": {
+      "name": "Ramyasri D.",
+      "age": 22,
+      "profession": "Electronics and Communication student",
+      "city": "Chennai",
+      "college": "Velammal Engineering College"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college"
+      ],
+      "difficulty": "easy",
+      "subtype": "student_profile"
+    }
+  },
+  {
+    "id": "json_140",
+    "input": "The application is from Santhosh Babu T., 33, a veterinary doctor at the Government Veterinary Hospital in Erode. Email: santhosh.vet@gov.tn.in.",
+    "expected_output": {
+      "name": "Santhosh Babu T.",
+      "age": 33,
+      "profession": "veterinary doctor",
+      "city": "Erode",
+      "company": "Government Veterinary Hospital",
+      "email": "santhosh.vet@gov.tn.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "medical_profile"
+    }
+  },
+  {
+    "id": "json_141",
+    "input": "Saritha Krishnan, 48 years old, is a librarian at Central Library, University of Kerala in Thiruvananthapuram. Contact: saritha.k@uok.ac.in.",
+    "expected_output": {
+      "name": "Saritha Krishnan",
+      "age": 48,
+      "profession": "librarian",
+      "city": "Thiruvananthapuram",
+      "college": "University of Kerala",
+      "email": "saritha.k@uok.ac.in"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "academic_support_profile"
+    }
+  },
+  {
+    "id": "json_142",
+    "input": "Vishnuprasad M., who is 30, works as a GIS analyst at ESRI India in their Noida office. Before this, he studied Geography at JNU. Email: vishnu.p@esriindia.com.",
+    "expected_output": {
+      "name": "Vishnuprasad M.",
+      "age": 30,
+      "profession": "GIS analyst",
+      "city": "Noida",
+      "company": "ESRI India",
+      "college": "JNU",
+      "email": "vishnu.p@esriindia.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "college",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "all_fields"
+    }
+  },
+  {
+    "id": "json_143",
+    "input": "Padma Suresh is 39 years old and runs a catering business in Madurai. She can be reached at padma.catering@gmail.com.",
+    "expected_output": {
+      "name": "Padma Suresh",
+      "age": 39,
+      "profession": "catering business owner",
+      "city": "Madurai",
+      "email": "padma.catering@gmail.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "entrepreneur_profile"
+    }
+  },
+  {
+    "id": "json_144",
+    "input": "I'd like to introduce Yuvaraj S., 24, a recent B.E. graduate from Kongu Engineering College, Erode, who is joining us as a graduate trainee.",
+    "expected_output": {
+      "name": "Yuvaraj S.",
+      "age": 24,
+      "profession": "graduate trainee",
+      "city": "Erode",
+      "college": "Kongu Engineering College"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college"
+      ],
+      "difficulty": "medium",
+      "subtype": "introduction_context"
+    }
+  },
+  {
+    "id": "json_145",
+    "input": "According to the hospital directory, Dr. Vijayalakshmi Suresh, 46, is a consultant gynaecologist at Gem Hospitals, Coimbatore. Email: vijayalakshmi.s@gemhospitals.com.",
+    "expected_output": {
+      "name": "Dr. Vijayalakshmi Suresh",
+      "age": 46,
+      "profession": "consultant gynaecologist",
+      "city": "Coimbatore",
+      "company": "Gem Hospitals",
+      "email": "vijayalakshmi.s@gemhospitals.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "medical_profile"
+    }
+  },
+  {
+    "id": "json_146",
+    "input": "Parthasarathy V. is 62 and served as the Chief Engineer at PWD Tamil Nadu before retiring last year. He now lives in Chennai.",
+    "expected_output": {
+      "name": "Parthasarathy V.",
+      "age": 62,
+      "profession": "retired Chief Engineer",
+      "city": "Chennai",
+      "company": "PWD Tamil Nadu"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company"
+      ],
+      "difficulty": "hard",
+      "subtype": "retirement_context"
+    }
+  },
+  {
+    "id": "json_147",
+    "input": "Kalpana Iyer, 27, is an environmental consultant at ERM India, Pune. She graduated in Environmental Engineering from COEP. Email: kalpana.i@ermgroup.com.",
+    "expected_output": {
+      "name": "Kalpana Iyer",
+      "age": 27,
+      "profession": "environmental consultant",
+      "city": "Pune",
+      "company": "ERM India",
+      "college": "COEP",
+      "email": "kalpana.i@ermgroup.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "college",
+        "email"
+      ],
+      "difficulty": "medium",
+      "subtype": "all_fields"
+    }
+  },
+  {
+    "id": "json_148",
+    "input": "Thilagam P., a 44-year-old head nurse at Government General Hospital, Salem, has been in the healthcare field for over 20 years.",
+    "expected_output": {
+      "name": "Thilagam P.",
+      "age": 44,
+      "profession": "head nurse",
+      "city": "Salem",
+      "company": "Government General Hospital"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company"
+      ],
+      "difficulty": "medium",
+      "subtype": "medical_profile"
+    }
+  },
+  {
+    "id": "json_149",
+    "input": "The conference badge is for Sriram Venkatachalam, 34, a principal engineer at Qualcomm India, Hyderabad. Email: sriram.v@qualcomm.com.",
+    "expected_output": {
+      "name": "Sriram Venkatachalam",
+      "age": 34,
+      "profession": "principal engineer",
+      "city": "Hyderabad",
+      "company": "Qualcomm India",
+      "email": "sriram.v@qualcomm.com"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "company",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "conference_badge_context"
+    }
+  },
+  {
+    "id": "json_150",
+    "input": "Nithya Ramesh, 25, is a second-year M.Tech student in VLSI Design at NIT Trichy, originally from Dindigul. Her email is nithya.r25@nitt.edu.",
+    "expected_output": {
+      "name": "Nithya Ramesh",
+      "age": 25,
+      "profession": "M.Tech VLSI Design student",
+      "city": "Dindigul",
+      "college": "NIT Trichy",
+      "email": "nithya.r25@nitt.edu"
+    },
+    "metadata": {
+      "fields_present": [
+        "name",
+        "age",
+        "profession",
+        "city",
+        "college",
+        "email"
+      ],
+      "difficulty": "easy",
+      "subtype": "student_profile"
+    }
+  }
+]

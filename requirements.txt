@@ -1,0 +1,33 @@
+# ── Core ──────────────────────────────────────
+requests==2.31.0
+python-dotenv==1.0.1
+pyyaml==6.0.1
+
+# ── Ollama Python client ──────────────────────
+ollama==0.2.1
+
+# ── Tokenizer (offline, no model download) ────
+tiktoken==0.7.0
+transformers==4.40.2
+tokenizers==0.19.1
+
+# ── Data handling ─────────────────────────────
+pandas==2.2.2
+numpy==1.26.4
+
+# ── Evaluation / NLP ──────────────────────────
+nltk==3.8.1
+rouge-score==0.1.2
+jsonschema==4.22.0
+
+# ── Visualisation ─────────────────────────────
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# ── Notebook ──────────────────────────────────
+jupyter==1.0.0
+ipykernel==6.29.4
+
+# ── Testing ───────────────────────────────────
+pytest==8.2.0
+pytest-cov==5.0.0

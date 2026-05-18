@@ -1,0 +1,11 @@
+# Monolithic Prompt Template v1
+# All instructions in one block, no separation.
+
+{{SKILL_BLOCK}}
+
+{{NOISE_BLOCK}}
+
+{{OUTPUT_FORMAT}}
+
+Input:
+{{USER_INPUT}}

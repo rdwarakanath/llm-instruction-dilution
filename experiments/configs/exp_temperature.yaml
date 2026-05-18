@@ -1,0 +1,17 @@
+# experiments/configs/exp_temperature.yaml
+# Sweeps temperature — held at medium noise, best strategy from exp_prompt_length.
+
+name: "exp_temperature"
+description: >
+  Studies how temperature affects output stability and format compliance,
+  using the best-performing prompt strategy from the length experiment.
+
+grid:
+  models:           [model_3b, model_8b]
+  temperatures:     [0.0, 0.3, 0.7, 1.0]
+  prompt_strategies: [modular]          # filled in after exp_prompt_length
+  noise_levels:     [medium]
+  tasks:            [json_task, struct_task]
+
+runs_per_cell: 5
+total_runs: 80                          # 2×4×1×1×2×5 = 80

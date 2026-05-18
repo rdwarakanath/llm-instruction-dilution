@@ -1,0 +1,3 @@
+# noise_800.txt — ~800 token noise block
+# Populated in Stage 4.
+[PLACEHOLDER — 800 tokens of noise go here]

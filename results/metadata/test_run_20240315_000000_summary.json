@@ -1,0 +1,12 @@
+{
+  "run_id": "test_run_20240315_000000",
+  "total_calls": 1,
+  "successful_calls": 1,
+  "failed_calls": 0,
+  "success_rate": 1.0,
+  "duration_seconds": 1.42,
+  "config_snapshot": {
+    "test": true
+  },
+  "timestamp": "2026-05-18T07:59:41.866796+00:00"
+}

@@ -1,0 +1,4 @@
+# noise_300.txt — ~300 token noise block
+# Populated in Stage 4 with semantically irrelevant but grammatically
+# correct text to simulate instruction dilution at the short level.
+[PLACEHOLDER — 300 tokens of noise go here]
