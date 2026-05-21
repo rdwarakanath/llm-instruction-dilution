@@ -1,4 +1,7 @@
-# noise_300.txt — ~300 token noise block
-# Populated in Stage 4 with semantically irrelevant but grammatically
-# correct text to simulate instruction dilution at the short level.
-[PLACEHOLDER — 300 tokens of noise go here]
+The quarterly infrastructure review concluded that load balancing configurations across the three primary data centres require recalibration before the next fiscal cycle. Engineers have noted that the current failover thresholds were set during the previous architecture migration and may no longer reflect the updated traffic patterns observed since the platform upgrade in the second quarter.
+
+The procurement committee met on Tuesday to finalise vendor shortlists for the upcoming office furniture replacement programme. Three suppliers submitted bids, and the evaluation panel is expected to present its recommendation to the finance subcommittee no later than the end of the month.
+
+Maintenance of the eastern corridor HVAC system has been rescheduled to the third weekend of the month due to a parts delivery delay from the original supplier. Affected personnel on floors four through seven have been advised to use the temporary ventilation units installed near the service lifts until the primary system is restored.
+
+The library acquisition budget for the current academic year has been partially reallocated to digital subscriptions following a review of physical book utilisation rates. A revised catalogue will be published on the intranet portal once the procurement process for the new database licences is completed.

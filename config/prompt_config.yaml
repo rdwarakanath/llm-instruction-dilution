@@ -16,5 +16,5 @@ placeholders:
 # Token budget (soft limits — tokenizer_utils.py will enforce)
 token_limits:
   system_prompt_max: 1800
-  user_prompt_max:   512
-  total_max:         2048
+  user_prompt_max:   1800
+  total_max:         3500
